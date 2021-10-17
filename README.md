@@ -18,3 +18,18 @@
 | 3. | Muhamad Guru Adiluhung |
 | 4. | Heri Khariono |
 | 5. | Devan Cakra Mudra Wijaya |
+
+<br>
+
+## PEMBAGIAN TUGAS
+| NAMA BAGIAN | YANG MENGERJAKAN |
+| --- | --- |
+| Header | Heri Khariono |
+| Main | Andi Nurafiah Pallawarukka |
+| Body | Drh. Eni Purwaningsih |
+| Footer | Muhamad Guru Adiluhung |
+| Animasi & Responsive Device | Devan Cakra Mudra Wijaya |
+
+<br>
+
+*Catatan : Tools yang kami gunakan sesuai dengan rekomendasi dari live session sebelumnya.
