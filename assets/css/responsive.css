@@ -1,7 +1,23 @@
 /* ============================================== RESPONSIVE-TABLET ============================================== */
+@media all and (max-width: 1000px) {
 
+}
 
 /* ============================================== RESPONSIVE-SMARTPHONE ============================================== */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+  
+    .menu-options {
+        display: block;
+    }
+
+    .info-header {
+        flex: 50%;
+        font-size: small;
+    }
+}
 
 
 /* Copyright © 2021 | All rights Reserved. A52-MKKD-TRAVEL */
