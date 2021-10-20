@@ -87,7 +87,7 @@
 				<button onclick="myFunction()" class="menu-options">
 					<img class="menu-icon" src="assets/img/menu.svg">
 					<div id="myDropdown" class="dropdown-content">
-						<a href="index.html">
+						<a href="#">
 							Beranda
 						</a>
 						<a href="#tentang">
@@ -148,13 +148,17 @@
 	<main>
 		<div id="content">
 			<article id="tentang" class="ct-1">
-				<h2 class="cth">Tentang Destinasi Wisata</h2>
-				<hr>
+				<h2>
+					<img class="about-ico" src="assets/img/about.png">
+					Tentang Destinasi Wisata
+				</h2><hr>
 			</article>
 			
 			<article id="kontak" class="ct-2">
-				<h2 class="cth">Kontak Kami</h2>
-				<hr>
+				<h2>
+					<img class="contact-ico" src="assets/img/contact.png">
+					Kontak Kami
+				</h2><hr>
 			</article>
 		</div>
 	</main><br>
@@ -162,23 +166,16 @@
 
 	
 	<!-- Bagian Footer -->
+	<div class="scroll-wrap">
+		<input type="image" class="scrollup" onclick="myScrollup()" id="scrollup" src="assets/img/scroll-up.png"
+			alt="scroll-up"></input>
+		<script type="text/javascript" src="assets/js/scrollup.js"></script>
+	</div>
+	<img class="footer-img" src="assets/img/footer.png">
 	<footer>
-		<article class="container-footer">
-			<table>
-				<tr>
-					<td class="cf-left">
-						Copyright © 2021 | All rights Reserved. A52-MKKD-TRAVEL
-					</td>
-					<td class="cf-right">
-						<div class="scroll-wrap">
-							<input type="image" class="scrollup" onclick="myScrollup()" id="scrollup" title="Top"
-								src="assets/img/.gif" alt="scroll-up"></input>
-							<script type="text/javascript" src="assets/js/.js"></script>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</article>
+		<div class="container-footer">
+			Copyright © 2021 | All rights Reserved. A52-MKKD-TRAVEL
+		</div>
 	</footer>
 	<!-- Penutup Bagian Footer -->
 
