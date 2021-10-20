@@ -32,4 +32,4 @@
 
 <br>
 
-*Catatan : Tools dan requirement yang kami gunakan sesuai dengan rekomendasi dari live session sebelumnya.
+*Catatan : Tools yang kami gunakan sesuai dengan rekomendasi dari live session sebelumnya.

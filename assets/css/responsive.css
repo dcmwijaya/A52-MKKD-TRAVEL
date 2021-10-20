@@ -13,9 +13,15 @@
         display: block;
     }
 
-    .info-header {
-        flex: 50%;
-        font-size: small;
+    .header-wrap { 
+        font-size: small;     
+        flex-direction: column;
+    }
+
+    .info-header1, .info-header2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;    
     }
 }
 

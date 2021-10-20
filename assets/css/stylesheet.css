@@ -85,6 +85,9 @@ html {
 }
 
 .header-right > a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
     line-height: 25px;
     margin-top: 6px;
     margin-right: 15px;
@@ -94,7 +97,8 @@ html {
     transition: all 0.5s;
 }
 
-.header-right > a:hover {
+.header-right > a:hover {    
+    text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -122,31 +126,66 @@ html {
     margin-top: -12px;
 }
 
-.ico-wrap{
-    padding: 1px 10px 15px 20px;
+.header-wrap{
     display: flex;    
-    text-align: center;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.ico-header{
+.info-header1 {      
+    padding: 0px 20px 20px 20px;
+    flex: 50%;
+    display: flex;    
+    flex-direction: row;
+}
+
+.info-header2 {      
+    padding: 0px 20px 20px 20px;
+    display: flex;    
+    flex-direction: row;
+}
+
+.ico-header1{
     position: relative;  
     margin-top: 15px;
-    margin-bottom: -10px;
-    width: 30px;
-	height: 30px;
+    margin-bottom: -5px;
+    width: 20px;
+	height: 20px;
     background: linear-gradient(-45deg, rgba(143, 83, 255),rgba(78, 78, 255));
     border-radius: 600px;
 }
 
-.ico-span {
-    margin-right: 30px;
+.ico-header2{
+    position: relative;  
+    margin-top: 15px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+    width: 20px;
+	height: 20px;
+    border-radius: 3px;
 }
 
-.info-header {        
-    float: left;   
-    flex-direction: column;
+.ico-header2:hover {
+    font-weight: bold;
+	text-transform: inherit;
+	text-transform: uppercase;
+	border-color: rgb(200, 255, 0);
+	border-style: dotted;
+	text-transform: unset;
+	border-radius: 3px;
+    background: rgb(74, 173, 255);
+}
+
+.ico-span {
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.bts1, .bts2 {
+    border: 2px solid #4e4eff;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    margin-right: 10px;
 }
 
 /* ============================================== MAIN-BODY ============================================== */
