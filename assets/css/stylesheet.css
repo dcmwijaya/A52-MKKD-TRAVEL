@@ -202,7 +202,7 @@ html {
 }
 
 .menu-options:hover, .menu-options:focus {
-  background-color: rgb(52, 86, 238);
+    background-color: rgb(52, 86, 238);
 }
 
 .dropdown {
@@ -212,34 +212,111 @@ html {
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 120px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  margin-top: 22px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 22px;
     right: 0;
 }
 
 .dropdown-content a {    
-  color: black;
-  padding: 20px 160px 20px 160px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 20px 160px 20px 160px;
+    text-decoration: none;
+    display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+    background-color: #ddd;
+}
 
-.show {display: block;}
+.show {
+    display: block;
+}
+
+/* Slide */
+.slide-info {     
+    position: relative;
+    margin-bottom: 100px;     
+}
+
+.mySlides {
+	display: none;   
+}
+
+.mySlides .img-sld {
+	border-radius: 10px;
+	padding: 5px;
+	border: solid 1px #ccc; 
+}
+
+.img-sld {
+	width: 1200px;
+	height: 350px;
+	max-width: 100%;    
+    display:block;  
+    margin: 0 auto;
+}
+
+.text {
+	font-size: 16px;
+	color: black;
+	margin-top: 20px;
+	font-weight: bold;
+    text-align: center;
+}
+
+.indikator {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 1.0s ease;
+}
+
+.active {
+	background-color: #407af8;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 10.5s;
+	animation-name: fade;
+	animation-duration: 10.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.9
+	}
+	to {
+		opacity: 5
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px
+	}
+}
 
 /* ============================================== MAIN-BODY ============================================== */
 body {
     font-family: "Lucida Grande";
 }
 
-#tentang, #daftar, #info {
+#tentang, #kontak {
     margin-top: 20px;
     height: 500px;
 }
