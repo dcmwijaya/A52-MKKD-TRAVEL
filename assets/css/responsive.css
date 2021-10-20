@@ -3,6 +3,10 @@
     .img-sld {
         height: 300px;
     }
+
+    .info-kontak {
+        margin-right: 20px;
+    }
 }
 
 /* ============================================== RESPONSIVE-SMARTPHONE ============================================== */
@@ -15,7 +19,7 @@
         display: block;
     }
 
-    .header-wrap { 
+    .header-wrap, .content-wrap, .kontak-wrap {
         font-size: small;     
         flex-direction: column;
     }
@@ -37,6 +41,18 @@
     .scroll-wrap > input {
         height: 35px;
         width: 35px;
+    }
+
+    .kontak-wrap {   
+        min-height: 1000px;
+        margin-bottom: 275px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
     }
 }
 

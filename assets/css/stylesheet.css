@@ -330,9 +330,121 @@ body {
     width: 35px;
 }
 
-#tentang, #kontak {
+#tentang {
     margin: 50px 30px 0px 30px;
-    height: 1000px;
+    min-height: 800px;
+}
+
+#kontak {
+    margin: 50px 30px 0px 30px;
+    min-height: 600px;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    flex: 25%;
+    margin: 40px 20px 40px 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.kontak-wrap {
+    display: flex;
+    flex-direction: row;    
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.info-kontak {
+    flex: 50%;
+    margin-top: 20px;    
+    margin-bottom: 40px;
+}
+
+.container-kontak {
+    flex: 50%;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+}
+
+.content-kontak {
+    margin-top: 20px; 
+    line-height: 30px;
+}
+
+.content-kontak > p {
+    font-size: 15px;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    background-color: #4e4eff;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background: rgb(9, 76, 131);
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ico-sosmed {
+    position: relative;  
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    width: 20px;
+	height: 20px;
 }
 
 
@@ -351,15 +463,16 @@ footer {
 
 .footer-img {
     max-width: 100%;
-    z-index: 1;
+    height: 500px;
     margin-top: -690px;
+    z-index: 2;
 }
 
 .scroll-wrap {
     float: right;
     position: relative;
     margin-right: 20px;
-    margin-top: -20px;    
+    margin-top: -60px;    
     background: linear-gradient(-45deg, rgb(26, 133, 255),rgb(0, 0, 255));
     border-radius: 5px;
 }
