@@ -7,6 +7,21 @@
     .info-kontak {
         margin-right: 20px;
     }
+
+    .top-title {
+        padding: 10px;
+    }
+
+    .top-title > p {
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;   
+    }
+
+    .card > .container > p {
+        margin-top: 20px;
+        font-size: small;
+    }
 }
 
 /* ============================================== RESPONSIVE-SMARTPHONE ============================================== */
@@ -46,6 +61,10 @@
     .kontak-wrap {   
         min-height: 1000px;
         margin-bottom: 275px;
+    }
+
+    .card > .container > p {
+        margin-top: 10px;
     }
 }
 
