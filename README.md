@@ -16,7 +16,7 @@ This website was created as a submission of project assignments in the Basic Dig
 | Code | HTML, CSS, & JS |
 | Tools | Visual Studio Code, XAMPP (PHP Version 5+) |
 
-<br>
+<br><br>
 
 ## Download & Install
 1.XAMPP with PHP version 7.4 :
@@ -28,7 +28,7 @@ https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-window
 https://code.visualstudio.com/docs/?dv=win
 ```
 
-<br>
+<br><br>
 
 ## Running
 1.Download this repository.<br>
@@ -44,7 +44,31 @@ localhost/A52-MKKD-TRAVEL/
 ```
 6.Enjoy [Done].
 
-<br>
+<br><br>
+
+## Highlights
+<table>
+<tr>
+<th width="420">Website Header section</th>
+<th width="420">Website Footer section</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/684533d8-e476-4450-84f0-9b19fd6368b7" alt="header"></td>
+<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/4285ca18-c097-4d72-bc53-0afee04c7d68" alt="footer"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="280" colspan="3">About Tourism Destinations</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/11e8228c-d792-40fb-9012-9215e7d26679" alt="image-1"></td>
+<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/442ebeb4-1ae9-4f4f-a7fd-6fafcf991841" alt="image-2"></td>
+<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/8a51b968-ec1d-42f8-a400-87a793a31d4a" alt="image-3"></td>
+</tr>
+</table>
+
+<br><br>
 
 ## A52-PROGATE TEAMS
 | NUMBER | FULL NAME | TASKS |
