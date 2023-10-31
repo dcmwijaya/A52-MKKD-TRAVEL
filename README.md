@@ -82,5 +82,3 @@ localhost/A52-MKKD-TRAVEL/
 <br>
 
 *Notes: The tools we use are in accordance with the recommendations from the previous live session.
-
-<br><br>
