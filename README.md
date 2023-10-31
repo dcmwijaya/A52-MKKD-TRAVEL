@@ -59,12 +59,12 @@ localhost/A52-MKKD-TRAVEL/
 </table>
 <table>
 <tr>
-<th width="280" colspan="3">About Tourism Destinations</th>
+<th colspan="3">About Tourism Destinations</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/11e8228c-d792-40fb-9012-9215e7d26679" alt="image-1"></td>
-<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/442ebeb4-1ae9-4f4f-a7fd-6fafcf991841" alt="image-2"></td>
-<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/8a51b968-ec1d-42f8-a400-87a793a31d4a" alt="image-3"></td>
+<td width="280"><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/11e8228c-d792-40fb-9012-9215e7d26679" alt="image-1"></td>
+<td width="280"><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/442ebeb4-1ae9-4f4f-a7fd-6fafcf991841" alt="image-2"></td>
+<td width="280"><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/8a51b968-ec1d-42f8-a400-87a793a31d4a" alt="image-3"></td>
 </tr>
 </table>
 
