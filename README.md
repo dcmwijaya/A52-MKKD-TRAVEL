@@ -6,30 +6,19 @@
 ![JS](https://img.shields.io/badge/-javascript-yellow.svg?&logo=javascript&logoColor=white)
 
 # A52-MKKD-TRAVEL
-<b>Website ini diciptakan sebagai pemenuhan tugas proyek (submission) pada Mata Kuliah Kecerdasan Digital Dasar CFDS UGM x PROGATE.</p>
+This website was created as a submission of project assignments in the Basic Digital Intelligence Course CFDS UGM x PROGATE.
 
 <br>
 
-## A52-PROGATE TIM
-| NO | NAMA ANGGOTA TIM |
-| --- | --- |
-| 1. | Drh. Eni Purwaningsih |
-| 2. | Andi Nurafiah Pallawarukka |
-| 3. | Muhamad Guru Adiluhung |
-| 4. | Heri Khariono |
-| 5. | Devan Cakra Mudra Wijaya |
+## A52-PROGATE TEAMS
+| NUMBER | FULL NAME | TASKS |
+| --- | --- | --- |
+| 1. | Drh. Eni Purwaningsih | Handles the body section of a website |
+| 2. | Andi Nurafiah Pallawarukka | Handles the main section of a website |
+| 3. | Muhamad Guru Adiluhung | Handles the footer section of a website |
+| 4. | Heri Khariono | Handles the header section of a website |
+| 5. | Devan Cakra Mudra Wijaya | Handles website animation & responsive tools |
 
 <br>
 
-## PEMBAGIAN TUGAS
-| NAMA BAGIAN | YANG MENGERJAKAN |
-| --- | --- |
-| Header | Heri Khariono |
-| Main | Andi Nurafiah Pallawarukka |
-| Body | Drh. Eni Purwaningsih |
-| Footer | Muhamad Guru Adiluhung |
-| Animasi & Responsive Device | Devan Cakra Mudra Wijaya |
-
-<br>
-
-*Catatan : Tools yang kami gunakan sesuai dengan rekomendasi dari live session sebelumnya.
+*Notes: The tools we use are in accordance with the recommendations from the previous live session.
