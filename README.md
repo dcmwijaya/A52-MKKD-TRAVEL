@@ -6,7 +6,7 @@
 ![JS](https://img.shields.io/badge/-javascript-yellow.svg?&logo=javascript&logoColor=white)
 
 # A52-MKKD-TRAVEL
-This website was created as a submission of project assignments in the Basic Digital Intelligence Course CFDS UGM x PROGATE.
+This website was created as one of the efforts to submit project assignments in the CFDS UGM x PROGATE Basic Intelligence course.
 
 <br>
 
