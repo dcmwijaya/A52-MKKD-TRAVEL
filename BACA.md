@@ -16,35 +16,36 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 | Kode | HTML, CSS, & JS |
 | Peralatan | Visual Studio Code, XAMPP (PHP Versi 5+) |
 
-<br><br>
+<br>
 
 ## Unduh & Instal
-1.XAMPP dengan PHP versi 7.4 :
-```bash
-https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
-```
-2.Visual Studio Code :
-```bash
-https://code.visualstudio.com/docs/?dv=win
-```
+1. XAMPP dengan PHP versi 7.4 :
 
-<br><br>
+   ```bash
+   https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
+   ```
+
+2. Visual Studio Code :
+
+   ```bash
+   https://code.visualstudio.com/docs/?dv=win
+   ```
+
+<br>
 
 ## Menjalankan
-1.Unduh repositori ini.<br>
-2.Ekstrak file yang diunduh.<br>
-3.Pindahkan direktori "A52-MKKD-TRAVEL" ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
-```bash
-C:\xampp\htdocs
-```
-4.Untuk mengakses situs web, buka XAMPP, lalu mulai bagian Apache.<br>
-5.Silakan buka peramban Anda dengan menuliskan:
-```bash
-localhost/A52-MKKD-TRAVEL/
-```
-6.Selamat menikmati [Selesai].
+1. Unduh repositori ini.<br>
+2. Ekstrak file yang diunduh.<br>
+3. Pindahkan direktori ``` A52-MKKD-TRAVEL ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.
+4. Untuk mengakses situs web, buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.<br>
+5. Silakan buka peramban Anda dengan menuliskan:
+   
+   ```bash
+   localhost/A52-MKKD-TRAVEL/
+   ```
+7. Selamat menikmati [Selesai].
 
-<br><br>
+<br>
 
 ## Sorotan
 <table>
@@ -68,7 +69,7 @@ localhost/A52-MKKD-TRAVEL/
 </tr>
 </table>
 
-<br><br>
+<br>
 
 ## A52-TIM PROGATE
 | NOMOR | NAMA LENGKAP | PENUGASAN |
@@ -79,11 +80,10 @@ localhost/A52-MKKD-TRAVEL/
 | 4. | Heri Khariono | Menangani bagian kepala (atas) situs web |
 | 5. | Devan Cakra Mudra Wijaya | Menangani animasi situs web & alat responsifnya |
 
-<br>
-
 *Catatan: Alat bantu yang kami gunakan sesuai dengan rekomendasi dari sesi live sebelumnya.
 
-<br><br>
+
+<br>
 
 ## LISENSI 
 LISENSI MIT - Hak Cipta (c) 2020 - Devan C. M. Wijaya dkk
