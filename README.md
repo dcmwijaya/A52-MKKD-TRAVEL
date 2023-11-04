@@ -16,35 +16,36 @@ This website was created as one of the efforts to submit project assignments in 
 | Code | HTML, CSS, & JS |
 | Tools | Visual Studio Code, XAMPP (PHP Version 5+) |
 
-<br><br>
+<br>
 
 ## Download & Install
-1.XAMPP with PHP version 7.4 :
-```bash
-https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
-```
-2.Visual Studio Code :
-```bash
-https://code.visualstudio.com/docs/?dv=win
-```
+1. XAMPP with PHP version 7.4 :
 
-<br><br>
+   ```bash
+   https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
+   ```
+   
+2. Visual Studio Code :
+
+   ```bash
+   https://code.visualstudio.com/docs/?dv=win
+   ```
+
+<br>
 
 ## Running
-1.Download this repository.<br>
-2.Extract the downloaded file.<br>
-3.Move the "A52-MKKD-TRAVEL" directory into the htdocs directory, whose details you can find out as follows:
-```bash
-C:\xampp\htdocs
-```
-4.To access the website, open XAMPP, then start the Apache section.<br>
-5.Please open your browser by writing:
-```bash
-localhost/A52-MKKD-TRAVEL/
-```
-6.Enjoy [Done].
+1. Download this repository.<br>
+2. Extract the downloaded file.<br>
+3. Move the ``` A52-MKKD-TRAVEL ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```
+4. To access the website, open XAMPP, then start the ``` Apache ``` section.<br>
+5. Please open your browser by writing:
 
-<br><br>
+   ```bash
+   localhost/A52-MKKD-TRAVEL/
+   ```
+6. Enjoy [Done].
+
+<br>
 
 ## Highlights
 <table>
@@ -68,7 +69,7 @@ localhost/A52-MKKD-TRAVEL/
 </tr>
 </table>
 
-<br><br>
+<br>
 
 ## A52-PROGATE TEAMS
 | NUMBER | FULL NAME | TASKS |
@@ -79,11 +80,10 @@ localhost/A52-MKKD-TRAVEL/
 | 4. | Heri Khariono | Handles the header section of a website |
 | 5. | Devan Cakra Mudra Wijaya | Handles website animation & responsive tools |
 
-<br>
-
 *Notes: The tools we use are in accordance with the recommendations from the previous live session.
 
-<br><br>
+
+<br>
 
 ## LICENSE
 MIT License - Copyright (c) 2020 - Devan C. M. Wijaya et al
