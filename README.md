@@ -37,7 +37,7 @@ This website was created as one of the efforts to submit project assignments in 
 1. Download this repository.<br>
 2. Extract the downloaded file.<br>
 3. Move the ``` A52-MKKD-TRAVEL ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```
-4. To access the website, open XAMPP, then start the ``` Apache ``` section.<br>
+4. To access the website, open ``` XAMPP ```, then start the ``` Apache ``` section.<br>
 5. Please open your browser by writing:
 
    ```bash
