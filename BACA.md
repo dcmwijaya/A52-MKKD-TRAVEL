@@ -33,7 +33,7 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 
 <br>
 
-## Menjalankan
+## Memulai
 1. Unduh repositori ini.<br>
 2. Ekstrak file yang diunduh.<br>
 3. Pindahkan direktori ``` A52-MKKD-TRAVEL ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.
