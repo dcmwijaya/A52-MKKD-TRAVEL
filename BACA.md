@@ -36,7 +36,7 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 ## Memulai
 1. Unduh repositori ini.<br>
 2. Ekstrak file yang diunduh.<br>
-3. Pindahkan direktori ``` A52-MKKD-TRAVEL ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.
+3. Pindahkan direktori ``` A52-MKKD-TRAVEL ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.
 4. Untuk mengakses situs web, buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.<br>
 5. Silakan buka ``` peramban ``` anda dengan menuliskan:
    
