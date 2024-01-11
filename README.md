@@ -10,7 +10,7 @@ This website was created as one of the efforts to submit project assignments in 
 
 <br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Part | Description |
 | --- | --- |
 | Code | HTML, CSS, & JS |
