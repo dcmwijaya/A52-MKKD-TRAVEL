@@ -10,7 +10,7 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 
 <br>
 
-## Fitur / Kerangka Kerja / Peralatan
+## Kebutuhan Proyek
 | Bagian | Deskripsi |
 | --- | --- |
 | Kode | HTML, CSS, & JS |
