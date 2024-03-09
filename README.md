@@ -8,7 +8,7 @@
 # A52-MKKD-TRAVEL
 This website was created as one of the efforts to submit project assignments in the CFDS UGM x PROGATE Basic Intelligence course.
 
-<br>
+<br><br>
 
 ## Project Requirements
 | Part | Description |
@@ -16,7 +16,7 @@ This website was created as one of the efforts to submit project assignments in 
 | Code | HTML, CSS, & JS |
 | Tools | Visual Studio Code, XAMPP (PHP Version 5+) |
 
-<br>
+<br><br>
 
 ## Download & Install
 1. XAMPP with PHP version 7.4
@@ -27,7 +27,7 @@ This website was created as one of the efforts to submit project assignments in 
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
 
-   </td></tr></table>
+   </td></tr></table><br>
    
 2. Visual Studio Code
 
@@ -39,17 +39,22 @@ This website was created as one of the efforts to submit project assignments in 
 
    </td></tr></table>
 
-<br>
+<br><br>
 
 ## Get Started
-1. Download this repository.<br>
-2. Extract the downloaded file.<br>
-3. Move the ``` A52-MKKD-TRAVEL ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```.
-4. To access the website, open ``` XAMPP ```, then start the ``` Apache ``` section.<br>
-5. Please open your ``` browser ``` by writing: ``` localhost/A52-MKKD-TRAVEL/ ```.   
+1. Download this repository.<br><br>
+
+2. Extract the downloaded file.<br><br>
+
+3. Move the ``` A52-MKKD-TRAVEL ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```.<br><br>
+
+4. To access the website, open ``` XAMPP ```, then start the ``` Apache ``` section.<br><br>
+
+5. Please open your ``` browser ``` by writing: ``` localhost/A52-MKKD-TRAVEL/ ```.<br><br>
+
 6. Enjoy [Done].
 
-<br>
+<br><br>
 
 ## Highlights
 <table>
@@ -73,7 +78,7 @@ This website was created as one of the efforts to submit project assignments in 
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## A52-PROGATE TEAMS
 | NUMBER | FULL NAME | TASKS |
@@ -86,13 +91,12 @@ This website was created as one of the efforts to submit project assignments in 
 
 *Notes: The tools we use are in accordance with the recommendations from the previous live session.
 
-
-<br>
+<br><br>
 
 ## Appreciation
 If you find this work useful, please support it as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
 
-<br>
+<br><br>
 
 ## LICENSE
 MIT License - Copyright © 2020 - Devan C. M. Wijaya et al
