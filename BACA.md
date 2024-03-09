@@ -8,7 +8,7 @@
 # A52-MKKD-TRAVEL
 Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam mata kuliah Kecerdasan Dasar CFDS UGM x PROGATE.
 
-<br>
+<br><br>
 
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
@@ -16,36 +16,45 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 | Kode | HTML, CSS, & JS |
 | Peralatan | Visual Studio Code, XAMPP (PHP Versi 5+) |
 
-<br>
+<br><br>
 
 ## Unduh & Instal
-1. XAMPP dengan PHP versi 7.4 :
+1. XAMPP with PHP version 7.4
 
-   ```bash
+   <table><tr><td width="810">
+
+   ```
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
 
-2. Visual Studio Code :
+   </td></tr></table><br>
+   
+2. Visual Studio Code
 
-   ```bash
+   <table><tr><td width="810">
+
+   ```
    https://code.visualstudio.com/docs/?dv=win
    ```
 
-<br>
+   </td></tr></table>
+
+<br><br>
 
 ## Memulai
-1. Unduh repositori ini.<br>
-2. Ekstrak file yang diunduh.<br>
-3. Pindahkan direktori ``` A52-MKKD-TRAVEL ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.
-4. Untuk mengakses situs web, buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.<br>
-5. Silakan buka ``` peramban ``` anda dengan menuliskan:
-   
-   ```bash
-   localhost/A52-MKKD-TRAVEL/
-   ```
-7. Selamat menikmati [Selesai].
+1. Unduh repositori ini.<br><br>
 
-<br>
+2. Ekstrak file yang diunduh.<br><br>
+
+3. Pindahkan direktori ``` A52-MKKD-TRAVEL ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.<br><br>
+
+4. Untuk mengakses situs web, buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.<br><br>
+
+5. Silakan buka ``` peramban ``` anda dengan menuliskan: ``` localhost/A52-MKKD-TRAVEL/ ```.<br><br>
+
+6. Selamat menikmati [Selesai].
+
+<br><br>
 
 ## Sorotan
 <table>
@@ -69,7 +78,7 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## A52-TIM PROGATE
 | NOMOR | NAMA LENGKAP | PENUGASAN |
@@ -82,8 +91,12 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 
 *Catatan: Alat bantu yang kami gunakan sesuai dengan rekomendasi dari sesi live sebelumnya.
 
+<br><br>
 
-<br>
+## Apresiasi
+Jika anda merasa karya ini bermanfaat, dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan cara mengeklik tombol ``` ⭐Bintang ```.
+
+<br><br>
 
 ## LISENSI 
 LISENSI MIT - Hak Cipta © 2020 - Devan C. M. Wijaya dkk
