@@ -44,18 +44,9 @@ This website was created as one of the efforts to submit project assignments in 
 ## Get Started
 1. Download this repository.<br>
 2. Extract the downloaded file.<br>
-3. Move the ``` A52-MKKD-TRAVEL ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```
+3. Move the ``` A52-MKKD-TRAVEL ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```.
 4. To access the website, open ``` XAMPP ```, then start the ``` Apache ``` section.<br>
-5. Please open your ``` browser ``` by writing:
-
-   <table><tr><td width="810">
-      
-   ```
-   localhost/A52-MKKD-TRAVEL/
-   ```
-   
-   </td></tr></table>
-   
+5. Please open your ``` browser ``` by writing: ``` localhost/A52-MKKD-TRAVEL/ ```.   
 6. Enjoy [Done].
 
 <br>
