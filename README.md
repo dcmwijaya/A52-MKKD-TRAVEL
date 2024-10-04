@@ -1,9 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/A52-MKKD-TRAVEL)
-![HTML](https://img.shields.io/badge/-html-red?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-css-blue.svg?&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/-javascript-yellow.svg?&logo=javascript&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/A52-MKKD-TRAVEL?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Website-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Bootcamp-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # A52-MKKD-TRAVEL
 This website was created as one of the efforts to submit project assignments in the CFDS UGM x PROGATE Basic Intelligence course.
@@ -63,8 +62,8 @@ This website was created as one of the efforts to submit project assignments in 
 <th width="420">Website Footer section</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/684533d8-e476-4450-84f0-9b19fd6368b7" alt="header"></td>
-<td><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/4285ca18-c097-4d72-bc53-0afee04c7d68" alt="footer"></td>
+<td><img src="Assets/documentation/Header.jpg" alt="header"></td>
+<td><img src="Assets/documentation/Footer.jpg" alt="footer"></td>
 </tr>
 </table>
 <table>
@@ -72,9 +71,9 @@ This website was created as one of the efforts to submit project assignments in 
 <th colspan="3">About Tourism Destinations</th>
 </tr>
 <tr>
-<td width="280"><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/11e8228c-d792-40fb-9012-9215e7d26679" alt="image-1"></td>
-<td width="280"><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/442ebeb4-1ae9-4f4f-a7fd-6fafcf991841" alt="image-2"></td>
-<td width="280"><img src="https://github.com/devancakra/A52-MKKD-TRAVEL/assets/54527592/8a51b968-ec1d-42f8-a400-87a793a31d4a" alt="image-3"></td>
+<td width="280"><img src="Assets/documentation/Destinations-1.jpg" alt="destinations-1"></td>
+<td width="280"><img src="Assets/documentation/Destinations-2.jpg" alt="destinations-2"></td>
+<td width="280"><img src="Assets/documentation/Destinations-3.jpg" alt="destinations-3"></td>
 </tr>
 </table>
 
