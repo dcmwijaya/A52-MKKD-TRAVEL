@@ -62,8 +62,8 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 <th width="420">Website bagian Footer</th>
 </tr>
 <tr>
-<td><img src="Assets/documentation/Header.jpg" alt="header"></td>
-<td><img src="Assets/documentation/Footer.jpg" alt="footer"></td>
+<td><img src="assets/documentation/Header.jpg" alt="header"></td>
+<td><img src="assets/documentation/Footer.jpg" alt="footer"></td>
 </tr>
 </table>
 <table>
@@ -71,9 +71,9 @@ Website ini dibuat sebagai salah satu bentuk upaya penyerahan tugas proyek dalam
 <th colspan="3">Tentang Destinasi Wisata</th>
 </tr>
 <tr>
-<td width="280"><img src="Assets/documentation/Destinations-1.jpg" alt="destinations-1"></td>
-<td width="280"><img src="Assets/documentation/Destinations-2.jpg" alt="destinations-2"></td>
-<td width="280"><img src="Assets/documentation/Destinations-3.jpg" alt="destinations-3"></td>
+<td width="280"><img src="assets/documentation/Destinations-1.jpg" alt="destinations-1"></td>
+<td width="280"><img src="assets/documentation/Destinations-2.jpg" alt="destinations-2"></td>
+<td width="280"><img src="assets/documentation/Destinations-3.jpg" alt="destinations-3"></td>
 </tr>
 </table>
 
