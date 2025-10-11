@@ -48,13 +48,17 @@
 			<div class="navbar">
 				<div class="navbar-left select-none">
 					<img class="a52-mkkd-icon" src="assets/img/favicon/MKKD-A52-Logo.png"> 
-					<span>A52</span>
-					<div class="header-separator"></div> 
-					<span>Progate Team</span>
+					<span class="team-number">A52</span>
+					<div class="navbar-separator"></div>
+					<span class="team-name">MKKD-Travel</span>
 				</div>
 
-				<div class="navbar-right select-none">
-					<a href="#destinasi_wisata">
+				<div class="hamburger select-none" id="hamburger-menu">
+					<span></span><span></span><span></span>
+				</div>
+
+				<div id="nav-links" class="navbar-right select-none">
+					<a href="#tourist-destinations">
 						<svg class="navbar-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000" preserveAspectRatio="xMidYMid meet">
 							<g transform="translate(0,1000) scale(0.1,-0.1)" fill="currentColor" stroke="none">
 								<path d="M2529 8796 c-31 -12 -71 -32 -90 -43 -56 -35 -251 -138 -479 -255 -504 -259 -571 -302 -607 -391 -49 -123 -39 -219 28 -269 19 -14 549 -344 1179 -733 630 -389 1150 -713 1156 -721 6 -7 14 -12 17 -9 4 3 5 2 2 -2 -3 -3 0 -12 7 -20 9 -11 7 -18 -8 -33 -10 -10 -181 -100 -379 -200 -329 -167 -848 -431 -1052 -535 l-82 -43 -98 48 c-54 26 -282 139 -508 250 -225 111 -447 220 -493 242 l-83 40 -87 -32 c-321 -120 -603 -241 -687 -295 -94 -60 -135 -142 -135 -270 l0 -84 666 -730 c436 -478 677 -734 697 -743 26 -11 255 -12 1272 -9 l1240 3 60 23 c141 53 551 257 1675 833 124 63 249 128 279 143 l54 28 1579 -962 c1350 -822 1584 -961 1611 -958 18 1 34 7 35 12 2 5 10 9 18 9 8 0 17 7 20 15 4 8 10 15 14 15 10 0 80 70 80 80 0 4 7 13 15 20 8 7 15 27 15 46 0 18 4 35 9 39 6 3 9 18 7 33 -1 15 1 35 6 44 6 12 5 18 -2 18 -6 0 -8 5 -5 11 9 13 13 144 20 579 2 184 7 375 11 424 3 50 3 115 -1 145 -6 51 -11 59 -72 115 -36 34 -96 91 -134 129 -38 37 -69 64 -69 60 0 -5 -9 6 -20 22 -11 17 -20 27 -20 22 0 -4 -29 22 -65 58 -36 36 -65 62 -65 58 0 -4 -9 6 -20 22 -11 17 -20 26 -20 22 0 -5 -27 19 -61 52 -33 34 -62 61 -64 61 -2 0 -63 59 -137 130 -73 72 -136 130 -140 130 -5 0 -8 7 -8 17 0 9 -3 13 -7 10 -3 -4 -36 22 -72 57 -75 72 -125 119 -205 191 -31 28 -96 88 -144 135 -49 47 -104 98 -121 113 -18 16 -31 30 -29 31 1 2 107 56 233 121 127 65 271 139 320 165 50 26 151 78 225 115 74 38 137 71 140 74 3 4 18 17 34 29 127 97 416 383 519 512 199 250 289 430 337 670 42 211 26 382 -48 510 -91 157 -310 284 -597 343 -228 48 -421 57 -655 32 -173 -18 -267 -37 -438 -85 -233 -66 -376 -128 -722 -312 -99 -53 -238 -126 -435 -228 -77 -40 -171 -89 -210 -110 -38 -21 -128 -68 -200 -105 -71 -37 -173 -90 -225 -118 -166 -88 -183 -95 -205 -86 -11 5 -137 52 -280 104 -143 53 -276 102 -295 110 -19 8 -152 57 -295 110 -143 53 -276 102 -295 110 -19 8 -152 57 -295 110 -143 53 -276 102 -295 110 -19 8 -116 44 -215 80 -99 36 -209 77 -245 91 -130 50 -205 77 -741 274 -300 110 -550 200 -555 200 -5 0 -34 -11 -65 -24z"/>
@@ -63,7 +67,7 @@
 						</svg>
 						<span>Destinasi Wisata</span>
 					</a>
-					<a href="#kontak">
+					<a href="#contact">
 						<svg class="navbar-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000" preserveAspectRatio="xMidYMid meet">
 							<g transform="translate(0,1000) scale(0.1,-0.1)" fill="currentColor" stroke="none">
 								<path d="M4808 9905 c-3 -3 -70 -10 -149 -16 -253 -18 -690 -94 -767 -133 -15 -7 -90 -36 -167 -64 -146 -53 -408 -181 -485 -238 -25 -18 -79 -57 -121 -86 -418 -291 -782 -778 -989 -1323 -151 -399 -245 -830 -275 -1260 -9 -127 -15 -146 -71 -225 l-54 -74 0 -507 0 -506 78 -106 c42 -58 84 -115 92 -127 41 -60 36 -59 270 -100 124 -22 233 -40 242 -40 10 0 42 9 72 20 96 36 170 132 208 269 20 74 20 90 13 586 -4 280 -10 540 -15 577 -22 180 -170 321 -317 303 -51 -6 -53 -6 -53 18 0 30 27 224 41 297 21 110 101 425 131 519 100 314 262 631 420 824 27 32 48 62 48 66 0 13 291 304 340 339 206 149 257 180 450 273 92 45 396 143 520 168 229 45 340 55 665 55 316 1 417 -6 642 -44 140 -24 466 -124 584 -179 103 -49 271 -140 307 -168 18 -14 66 -47 106 -74 177 -118 415 -370 577 -611 33 -48 59 -90 59 -92 0 -3 15 -29 33 -58 166 -263 319 -709 408 -1193 27 -148 27 -146 -23 -139 -136 18 -287 -131 -308 -304 -5 -37 -11 -297 -15 -577 -7 -496 -7 -512 13 -586 38 -137 112 -233 208 -269 30 -11 62 -20 72 -20 9 0 118 18 242 40 234 41 229 40 270 100 8 12 50 69 92 127 l78 106 0 507 0 506 -64 89 c-56 76 -66 96 -71 144 -3 31 -13 112 -21 181 -78 649 -320 1328 -623 1745 -20 27 -40 57 -46 66 -61 104 -348 419 -460 505 -27 21 -66 52 -85 70 -66 60 -305 211 -455 287 -128 64 -348 151 -515 204 -127 39 -440 91 -695 114 -134 12 -429 21 -437 14z"/>
@@ -118,7 +122,7 @@
 		</header>
 		
 		<main>
-			<article id="destinasi_wisata">
+			<article id="tourist-destinations" class="destination-section">
 				<h2 class="select-none">
 					<svg class="title-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000" preserveAspectRatio="xMidYMid meet">
 						<g transform="translate(0,1000) scale(0.1,-0.1)" fill="currentColor" stroke="none">
@@ -139,11 +143,9 @@
 							<h4><strong>Wisata Alam</strong></h4>
 							<p class="card-text">Wisata Bromo Tengger dan Semeru</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card1">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card1">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card2">
 						<a href="#card2">
@@ -155,11 +157,9 @@
 							<h4><strong>Wisata Alam</strong></h4>
 							<p class="card-text">Wisata Danau Toba</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card2">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card2">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card3">
 						<a href="#card3">
@@ -171,11 +171,9 @@
 							<h4><strong>Wisata Alam</strong></h4>
 							<p class="card-text">Wisata Labuan Bajo</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card3">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card3">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card4">
 						<a href="#card4">
@@ -187,11 +185,9 @@
 							<h4><strong>Wisata Alam</strong></h4>
 							<p class="card-text">Wisata Kebun Raya Bogor</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card4">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card4">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 				</div>
 				<div class="card-wrapper">
@@ -205,11 +201,9 @@
 							<h4><strong>Wisata Religi</strong></h4>
 							<p class="card-text">Wisata Maha Vihara Mojopahit</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card5">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card5">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card6">
 						<a href="#card6">
@@ -221,11 +215,9 @@
 							<h4><strong>Wisata Religi</strong></h4>
 							<p class="card-text">Wisata Masjid Cheng Ho</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card6">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card6">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card7">
 						<a href="#card7">
@@ -237,11 +229,9 @@
 							<h4><strong>Wisata Religi</strong></h4>
 							<p class="card-text">Wisata Gua Maria Lourdes Puhsarang</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card7">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card7">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card8">
 						<a href="#card8">
@@ -253,11 +243,9 @@
 							<h4><strong>Wisata Religi</strong></h4>
 							<p class="card-text">Wisata Pura Tanah Lot Bali</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card8">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card8">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 				</div>
 				<div class="card-wrapper">
@@ -271,11 +259,9 @@
 							<h4><strong>Wisata Bahari</strong></h4>
 							<p class="card-text">Wisata Laut Bunaken</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card9">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card9">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card10">
 						<a href="#card10">
@@ -287,11 +273,9 @@
 							<h4><strong>Wisata Bahari</strong></h4>
 							<p class="card-text">Wisata Laut Wakatobi</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card10">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card10">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card11">
 						<a href="#card11">
@@ -303,11 +287,9 @@
 							<h4><strong>Wisata Bahari</strong></h4>
 							<p class="card-text">Wisata Laut Raja Ampat</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card11">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card11">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card12">
 						<a href="#card12">
@@ -319,11 +301,9 @@
 							<h4><strong>Wisata Bahari</strong></h4>
 							<p class="card-text">Wisata Laut Derawan</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card12">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card12">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 				</div>
 				<div class="card-wrapper">
@@ -337,11 +317,9 @@
 							<h4><strong>Ekowisata</strong></h4>
 							<p class="card-text">Wisata Mangrove Surabaya</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card13">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card13">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card14">
 						<a href="#card14">
@@ -353,11 +331,9 @@
 							<h4><strong>Ekowisata</strong></h4>
 							<p class="card-text">Wisata Taman Nasional Komodo</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card14">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card14">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card15">
 						<a href="#card15">
@@ -369,11 +345,9 @@
 							<h4><strong>Ekowisata</strong></h4>
 							<p class="card-text">Wisata Desa Penglipuran</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card15">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card15">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card16">
 						<a href="#card16">
@@ -385,11 +359,9 @@
 							<h4><strong>Ekowisata</strong></h4>
 							<p class="card-text">Wisata G.Api Purba Nglanggeran</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card16">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card16">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 				</div>
 				<div class="card-wrapper">
@@ -403,11 +375,9 @@
 							<h4><strong>Wisata Budaya</strong></h4>
 							<p class="card-text">Wisata Candi Prambanan</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card17">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card17">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card18">
 						<a href="#card18">
@@ -419,11 +389,9 @@
 							<h4><strong>Wisata Budaya</strong></h4>
 							<p class="card-text">Wisata Candi Borobudur</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card18">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card18">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card19">
 						<a href="#card19">
@@ -435,11 +403,9 @@
 							<h4><strong>Wisata Budaya</strong></h4>
 							<p class="card-text">Wisata Festival Lembah Baliem</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card19">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card19">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card20">
 						<a href="#card20">
@@ -451,11 +417,9 @@
 							<h4><strong>Wisata Budaya</strong></h4>
 							<p class="card-text">Wisata Festival Krakatau</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card20">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card20">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 				</div>
 				<div class="card-wrapper">
@@ -469,11 +433,9 @@
 							<h4><strong>Agrowisata</strong></h4>
 							<p class="card-text">Wisata Petik Strawberry Malang</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card21">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card21">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card22">
 						<a href="#card22">
@@ -485,11 +447,9 @@
 							<h4><strong>Agrowisata</strong></h4>
 							<p class="card-text">Wisata Petik Apel Batu</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card22">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card22">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card23">
 						<a href="#card23">
@@ -501,11 +461,9 @@
 							<h4><strong>Agrowisata</strong></h4>
 							<p class="card-text">Wisata Petik Buah Naga Lampung</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card23">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card23">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 					<div class="card" id="card24">
 						<a href="#card24">
@@ -517,16 +475,14 @@
 							<h4><strong>Agrowisata</strong></h4>
 							<p class="card-text">Wisata Petik Buah Banyuwangi</p>
 						</div>
-						<div class="card-footer">
-							<a href="#card24">
-								<p class="card-text">VIEW DETAIL</p>
-							</a>
-						</div>
+						<a class="card-footer" href="#card24">
+							<p class="card-text">VIEW DETAIL</p>
+						</a>
 					</div>
 				</div>
 			</article>
 			
-			<article id="kontak">
+			<article id="contact" class="contact-section">
 				<h2 class="select-none">
 					<svg class="title-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000" preserveAspectRatio="xMidYMid meet">
 						<g transform="translate(0,1000) scale(0.1,-0.1)" fill="currentColor" stroke="none">
@@ -546,7 +502,7 @@
 							takkan terlupakan. Hubungi kami jika Anda berminat.
 						</p>
 						<div class="sosmed">
-							<div class="item">
+							<div class="sosmed-content">
 								<svg class="sosmed-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000">
 									<defs>
 										<linearGradient id="whatsappGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -561,9 +517,9 @@
 									</g>
 								</svg>
 								<strong class="select-none">Whatsapp:</strong>
-								<span class="whatsapp">083832444422</span>
-							</div>	
-							<div class="item">
+								<span class="whatsapp-info">083832444422</span>
+							</div>
+							<div class="sosmed-content">
 								<svg class="sosmed-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000">
 									<defs>
 										<linearGradient id="facebookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -577,9 +533,9 @@
 									</g>
 								</svg>
 								<strong class="select-none">Facebook:</strong>
-								<span class="facebook">@a52_team_mkkd</span>
+								<span class="facebook-info">@a52_team_mkkd</span>
 							</div>
-							<div class="item">
+							<div class="sosmed-content">
 								<svg class="sosmed-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000">
 									<defs>
 										<linearGradient id="instagramGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -598,9 +554,9 @@
 									</g>
 								</svg>
 								<strong class="select-none">instagram:</strong>
-								<span class="instagram">@a52_team_mkkd</p></span>
+								<span class="instagram-info">@a52_team_mkkd</p></span>
 							</div>
-							<div class="item">
+							<div class="sosmed-content">
 								<svg class="sosmed-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.000000 1000.000000">
 									<defs>
 										<linearGradient id="youtubeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -615,12 +571,12 @@
 									</g>
 								</svg>
 								<strong class="select-none">Youtube:</strong>
-								<span class="youtube">@a52_team_mkkd</span>
+								<span class="youtube-info">@a52_team_mkkd</span>
 							</div>
 						</div>
 					</div>
 					<div class="contact-right">
-						<form id="contactForm" onsubmit="return showAlert()">
+						<form id="contact-form" onsubmit="return showAlert()">
 							<div class="row">
 								<div class="col-25 select-none">
 									<label for="nama">Nama Lengkap</label>
@@ -643,8 +599,8 @@
 								</div>
 								<div class="col-75">
 									<select class="select-none" id="subjek" name="subjek" required>
-										<option value="kritik">Kritik</option>
-										<option value="saran">Saran</option>
+										<option value="pertanyaan">Pertanyaan</option>
+										<option value="kritik_saran">Kritik & Saran</option>
 										<option value="pendapat">Pendapat</option>
 									</select>
 								</div>
@@ -725,6 +681,7 @@
 			});
 		</script>
 		<script src="assets/js/carousel.js"></script>
+		<script src="assets/js/hamburgerMenu.js"></script>
 		<script src="assets/js/currentYear.js"></script>
 		<script src="assets/js/scrollup.js"></script>
 		<script src="assets/js/alert.js"></script>
