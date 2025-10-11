@@ -749,6 +749,12 @@ footer {
     padding: 5px 0;
     margin-bottom: 18px;
     width: fit-content;
+    border: none !important;
+  }
+
+  .navbar-right a:hover, .navbar-right a:hover svg {
+    color: yellow;
+    fill: yellow;
   }
 
   .navbar-right a::after {
@@ -762,8 +768,8 @@ footer {
     border-radius: 0;
   }
 
-  .navbar-right a i {
-    font-size: 1.2rem;
+  .navbar-right a:hover::after {
+    background: yellow;
   }
 
   .hamburger {
