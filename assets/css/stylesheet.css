@@ -85,7 +85,7 @@ a {
   height: 40px;
 }
 
-.header-icons, .navbar-icons, .title-icons {
+.header-icons, .navbar-icons, .title-icons, .view-icons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,13 +96,18 @@ a {
   color: black;
 }
 
-.navbar-icons {
+.navbar-icons, .view-icons {
   fill: white;
 }
 
 .header-icons, .navbar-icons, .title-icons, .sosmed-icons {
   width: 20px;
   height: 20px;
+}
+
+.view-icons {
+  width: 15px;
+  height: 15px;
 }
 
 .header-icons:hover {
@@ -447,6 +452,14 @@ header {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.card-footer p {
+  margin: 0;
 }
 
 .card-footer:hover {
